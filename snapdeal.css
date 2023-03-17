@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 110px;
+    width: 100%;
+    border: 1px solid red;
+}
+#top{
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+#top>div:nth-child(2){
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom{
+    height: 80px;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom>div:nth-child(3){
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* registerpage */
+
